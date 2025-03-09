@@ -1,5 +1,0 @@
-baseURL = 'https://merwanebouri.com/'
-languageCode = 'en-us'
-title = 'Merwane Bouri'
-publishDir = "build"
-theme="cactus"

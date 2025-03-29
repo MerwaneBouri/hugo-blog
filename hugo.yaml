@@ -1,6 +1,26 @@
-baseURL: https://example.org/
+baseURL: https://merwanebouri.com/
 languageCode: en-us
 title: Merwane Bouri
 publishDir: build
 theme: ["PaperMod"]
 googleAnalytics: "G-78HXMFB3FH"
+enableEmoji: true
+
+
+author:
+  name: Merwane Bouri
+  email: merwane.bouri@gmail.com
+
+
+homeInfoParams:
+    Title: "Hi, I'm Merwane Bouri"
+    Content: "I'm a software engineer specializing in autonomous systems with a vision 
+              to transform the automotive and robotics industries. My expertise spans autonomous vehicles, drones,
+              and sophisticated robotic solutions. I focus on building optimized, high-quality software that makes a real 
+              impact through innovation and technical excellence."
+
+params:
+  description: "Merwane Bouri - Software engineer 
+                specializing in autonomous systems including vehicles, 
+                robotics, and drones. Building optimized solutions that revolutionize the automotive and robotics industries."
+

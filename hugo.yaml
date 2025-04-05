@@ -22,8 +22,8 @@ params:
   dateFormat: "2006-01-02"
   hidefooter: true
   author:
-    name: Merwane Bouri
-    email: merwane.bouri@gmail.com
+    name: "Merwane Bouri"
+    email: "merwane.bouri@gmail.com"
   homeInfoParams:
     Title: "Hi, I'm Merwane Bouri"
     Content: >
@@ -31,7 +31,7 @@ params:
       My expertise spans autonomous vehicles, drones, and sophisticated robotic solutions. 
       I focus on building optimized, high-quality software that makes a real impact through innovation and technical excellence.
       <br><br>
-      *A lifelong learner*
+      *A lifelong learner, Stranger to this world*
   
   profileMode:
     enabled: false
@@ -46,3 +46,22 @@ sitemap:
   changefreq: weekly
   priority: 0.5
   filename: sitemap.xml
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1  # This puts it first in the navigation order
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 30

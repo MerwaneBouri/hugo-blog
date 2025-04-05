@@ -6,6 +6,7 @@ theme: ["PaperMod"]
 googleAnalytics: "G-78HXMFB3FH"
 enableEmoji: true
 copyright: "Copyright © 2025 Merwane Bouri"
+canonifyURLs: true
 
 markup:
   goldmark:

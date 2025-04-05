@@ -13,8 +13,13 @@ markup:
       unsafe: true
 
 params:
+  env: production
+  canonicalURL: https://merwanebouri.com/
+  title: Merwane Bouri | Software Engineer - Autonomous Systems
+  keywords: [autonomous vehicles, robotics, software engineering, drones]
+  robotsNoIndex: false
   description: "Merwane Bouri - Software engineer specializing in autonomous systems including vehicles, robotics, and drones. Building optimized solutions that revolutionize the automotive and robotics industries."
-
+  dateFormat: "2006-01-02"
   hidefooter: true
   author:
     name: Merwane Bouri
@@ -37,3 +42,7 @@ params:
       url: https://www.linkedin.com/in/merwane-b-574691139/
     - name: email
       url: "mailto:merwane.bouri@gmail.com"
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+  filename: sitemap.xml
